@@ -33,7 +33,7 @@ button_stop.pack(side=tkinter.LEFT)
 buttons_panel.pack(side=tkinter.TOP, anchor="nw")
 
 canvas = tkinter.Canvas(root, bg="lightgrey")
-canvas.pack(side=tkinter.TOP, anchor="nw", fill=tkinter.X)
+canvas.pack(expand=1, anchor="nw", fill=tkinter.BOTH)
 canvas.bind("<Button>", click_handler)
 
 root.mainloop()
