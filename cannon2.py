@@ -2,7 +2,7 @@ import tkinter
 import time
 import math
 from random import randint
-
+11111
 
 canvas_width = 640
 canvas_height = 480
